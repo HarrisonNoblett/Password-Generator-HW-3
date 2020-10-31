@@ -17,7 +17,7 @@ function getPasswordLength() {
   while ((userChoice < 8) || (userChoice > 128)){
     userChoice = window.prompt("Enter a number of characters between 8 and 128: ");
 
-      //if not number, makes user reset the choice value to 0
+      //if not a number choice betwween what is prompted makes user reset the choice value to 0
     if (isNaN(userChoice)) {
       userChoice = 0;
     }
@@ -40,7 +40,7 @@ while (chrTypeSelected == false){
   }
 }
 
-  //prompting what the user would like to use in there password
+  //Prompting what the user would like to use in there password
 function getChoice(currentOption){
   var userChoice = "a";
   messagePrompt = "";
