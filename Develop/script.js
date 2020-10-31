@@ -40,6 +40,7 @@ while (chrTypeSelected == false){
   }
 }
 
+  //prompting what the user would like to use in there password
 function getChoice(currentOption){
   var userChoice = "a";
   messagePrompt = "";
